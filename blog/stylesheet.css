@@ -1,0 +1,28 @@
+body {
+	margin-left: 25%;
+	margin-right: 25%;
+	border:22px solid #f1f1ff;
+	padding: 13px 13px 13px 13px;
+}
+div {
+	border-left: 8px solid #f1f1ff;
+	padding-left: 9px; 
+}
+h2 {
+	font-family: "Contrail One", Arial;
+	color: #324d36;
+	text-transform: capitalize;
+}
+p {
+	font-family: "Lato";
+}
+hr {
+	border: 1px solid #3f5143;
+	margin: 20px 0px 20px 0px;
+}
+.date {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: "Contrail One", Arial;
+	color: #324d36;
+}
