@@ -1,0 +1,44 @@
+body {
+  background-color: #f0f0f0;
+}
+#main {
+  text-align: center;
+  background-color: #dcdada;
+  padding: 25px 10px 25px 10px;
+}
+#img-div {
+  background-color: #f0f0f0;
+  padding: 35px 150px 5px 150px;
+
+}
+#image {
+  max-width: 66%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#quote {
+  font-style: italic;
+}
+#wiki {
+  font-size: large;
+  font-weight: 800; 
+}
+#tribute-info {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#subheading {
+  font-weight: 800;
+}
+#strong {
+  font-weight: 800;
+}
+
+li {
+  margin: 10px auto;
+}
