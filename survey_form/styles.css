@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+}
+input.lgcheckbox {
+	width: 15px; 
+    height: 15px;
+    float: left;
+    margin-right: 0.5em;
+}
+textarea {
+	width: 100%;
+	min-height: 100px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 5px;
+	margin-top: 4px;
+	box-sizing: border-box;
+}
+.background {
+	background-image: url("https://source.unsplash.com/73_kRzs9sqo/1920x1080");
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+.transparent {
+	background-color: rgba(48, 47, 216, 0.5);
+    background-position: fixed;
+    background-size: cover; 
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.surveyheading {
+	text-align: center;
+	color: #ffffff;	
+}
+.surveyform {
+	background: rgba(48, 47, 16, 0.9);
+	width: 50%;
+  	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	line-height: 1.4; 
+	color: #ffffff;
+	text-align: left;
+	padding: 35px 60px 80px 50px;	
+}
+.inputs {
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 5px;
+}
+#title {
+	font-family: 'Poppins', sans-serif;
+}
+#description {
+	font-family: 'Poppins', sans-serif;	
+	font-style: italic;
+}
+#submit{
+	width: 100%;
+	min-height: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background-color: #56b166;
+	color: #fff; 
+	border: 5px solid #56b166;
+}
+#name, #email, #number {
+	box-sizing: border-box;
+}
+#name, #email, #number, #role-select, #definitely, #feature-select, #Front-end {
+	margin-top: 4px;
+}
+#feature-select, #role-select {
+	font-family: 'Poppins', sans-serif;
+	padding: 5px 5px;
+}
