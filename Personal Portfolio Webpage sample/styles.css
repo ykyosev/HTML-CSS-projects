@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	background-color: #303841;
+}
+
+#navbar {
+	background-color: #be3144;
+	width: 100%;
+	top: 0;
+	position: fixed;	
+
+}
+.btn-menu {
+	color: #fff;
+	text-decoration: none;
+	font-size: 26px;
+	padding: 25px 10px;
+	display: inline-block;
+	float: right;
+}
+.btn-menu:hover {
+	background-color: #113114;
+}
+
+#welcome-section {
+	background-color: #000;
+	color: #fff;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 100vh;
+}
+
+#projects {
+	background-color: #45567d;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	width: 100%;
+	
+}
+.project-tile {
+	background-color: #303841;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #000;
+	margin: 30px 5px;
+	box-sizing: border-box;
+	width: 20%;
+}
+
+@media (max-width: 900px) {
+	.project-tile {
+		width: 45%;
+	}
+}
+@media (max-width: 600px) {
+	.project-tile {
+		width: 90%;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+	}
+	#right {
+		padding-top: 5px;
+	}
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.project-name {
+	display: block;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	text-decoration: none;
+	font-weight: 600;
+}
+#project-heading p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	padding-top: 40px;
+	text-decoration: underline;
+	flex-wrap: wrap;
+}
+#project-heading {
+	color: #fff;
+	background-color: #45567d;
+
+}
+#view-project {
+	
+	background-color: #45567d;
+	height: 160px;
+}
+#view-project a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #303841;
+	display: block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 auto;
+	text-align: center;
+}
+#view-project a:hover {
+	background-color: #be3144;
+}
+#profile-links {
+	background-color: #303841;
+	text-align: center;
+	padding: 30px 5px;
+	border-bottom: 4px solid #be3144;
+}
+#profile-links p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+#contact-links {
+	padding: 60px 10px;
+}
+#contact-links a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 10px 60px;
+}
+footer {
+	background-color: #303841;
+	width: 100%;
+	color: #fff;
+	height: 5vh;
+	padding: 50px 5px;
+	width: 88%;
+	margin: 0 auto;
+}
+#right {
+	color: #fff;
+	float: right;
+}
+#right a {
+	color: #fff;
+	text-decoration: none;
+}
